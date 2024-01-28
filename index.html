@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Wallpoet&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./relogio-e-calendario.png">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-button.css' rel='stylesheet'>
+    <title>Contagem Regressiva</title>
+    <script type="module" src="./script.js"></script>
+</head>
+
+<body>
+    <h1>Contagem Regressiva</h1>
+    <div class="containerPrincipal">
+        <div class="informacoes">
+            <p>Insira a Data:</p>
+            <input type="date" class="data">
+            <button class="iniciar">Iniciar <img src="./botao-play-ponta-de-seta.png" alt="play"></button>
+        </div>
+
+        <div class="contagemContainer">
+            <div class="contagemItens">
+                <span class="contagemNumeros" id="dias">00</span>
+                <span class="contagemTexto">Dias</span>
+            </div>
+            <div class="contagemItens">
+                <span class="contagemNumeros" id="horas">00</span>
+                <span class="contagemTexto">Horas</span>
+            </div>
+            <div class="contagemItens">
+                <span class="contagemNumeros" id="minutos">00</span>
+                <hr>
+                <span class="contagemTexto">Minutos</span>
+            </div>
+            <div class="contagemItens">
+                <span class="contagemNumeros" id="segundos">00</span>
+                <span class="contagemTexto">Segundos</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 <a href="https://lucasperrone21.github.io/Portfolio/" target="_blank">Lucas Perrone.</a> Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
